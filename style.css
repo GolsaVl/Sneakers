@@ -1,0 +1,559 @@
+body {
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(219, 9%, 45%);
+  font-family: 'Kumbh Sans', sans-serif;
+  font-size: 16px;
+}
+
+.avatar {
+  float: right;
+  margin-left: 4%;
+}
+
+.lines {
+  background-color: hsl(223, 64%, 98%);
+  border-top: 0px;
+}
+
+.cart {
+  float: right;
+  padding-top: 2%;
+}
+
+.quantity {
+  float: right;
+  background-color: hsl(26, 100%, 55%);
+  border-radius: 15px;
+  font-size: 10px;
+  color: hsl(0, 0%, 100%);
+  padding: 0% 0.5%;
+  font-weight: bold;
+  display: none;
+}
+
+.cart-show {
+  position: absolute;
+  box-shadow: 5px 5px 100px #888888;
+  width: 23%;
+  border-radius: 10px;
+  background-color: hsl(0, 0%, 100%);
+  display: none;
+}
+
+.product1-cart {
+  height: 60px;
+  display: inline-block;
+  border-radius: 5px;
+  position: absolute;
+  margin: 0% 5%;
+}
+
+.cartp {
+  color: hsl(0, 0%, 0%);
+  font-weight: bold;
+  padding: 2%;
+}
+
+.b {
+  display: inline;
+}
+
+.fall-cart {
+  margin-left: 90px;
+}
+
+.cart125 {
+  display: inline;
+  margin-left: 90px;
+}
+
+.cart375 {
+  color: hsl(0, 0%, 0%);
+  font-weight: bold;
+  display: inline;
+  margin-left: 2%;
+}
+
+.delete {
+  position: absolute;
+  right: 5%;
+  top: 45%;
+}
+
+.checkout {
+  padding: 3.5%;
+  background-color: hsl(26, 100%, 55%);
+  color: hsl(0, 0%, 100%);
+  border: 0px;
+  border-radius: 5px;
+  width: 90%;
+  text-align: center;
+}
+
+.empty {
+  text-align: center;
+  margin: 20%;
+  font-weight: bold;
+}
+
+.sneaker {
+  color: hsl(26, 100%, 55%);
+  padding-right: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.fall {
+  color: hsl(0, 0%, 0%);
+  font-weight: bolder;
+}
+
+.d125 {
+  font-weight: bolder;
+  color: hsl(0, 0%, 0%);
+  font-size: 25px;
+  margin-right: 3%;
+}
+
+.d50 {
+  color: hsl(26, 100%, 55%);
+  background-color: hsl(25, 100%, 94%);
+  font-weight: bold;
+  padding: 1% 2%;
+  border-radius: 5px;
+}
+
+.d250 {
+  color: hsl(220, 14%, 75%);
+  font-weight: bold;
+  text-decoration: line-through;
+}
+
+.grayb {
+  background-color: hsl(223, 64%, 98%);
+  display: inline;
+  padding: 3%;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.minus {
+  padding-bottom: 1%;
+}
+
+.zero {
+  color: hsl(0, 0%, 0%);
+  font-weight: bold;
+  text-align: center;
+}
+
+.add {
+  padding: 3.5%;
+  background-color: hsl(26, 100%, 55%);
+  font-weight: bold;
+  color: hsl(0, 0%, 100%);
+  border: 0px;
+  border-radius: 5px;
+  width: 50%;
+}
+
+.cart2 {
+  filter: brightness(100);
+  height: 13px;
+  margin: 0% 5%;
+}
+
+.on {
+  position: absolute;
+  text-align: center;
+  display: none;
+}
+
+@media (min-width: 800px) {
+  body {
+    margin: 2% 15% 15% 15%;
+  }
+
+  .none {
+    display: none;
+  }
+
+  .logo {
+    margin-right: 3%;
+  }
+
+  .topp {
+    display: inline-block;
+    margin: 2%;
+  }
+
+  .topp:hover {
+    color: hsl(0, 0%, 0%);
+  }
+
+  .nav {
+    display: inline;
+  }
+
+  .avatar {
+    height: 50px;
+  }
+
+  .avatar:hover {
+    height: 46px;
+    border: 2px solid hsl(26, 100%, 55%);
+    border-radius: 50%;
+  }
+
+  .cart:hover {
+    filter: brightness(0);
+  }
+
+  .cart-show {
+    left: 70%;
+  }
+
+  .checkout {
+    margin: 8% 5%;
+  }
+
+  .checkout:hover {
+    background-color: hsl(26, 100%, 70%);
+  }
+
+  .left {
+    width: 50%;
+    float: left;
+  }
+
+  .right {
+    width: 45%;
+    float: right;
+  }
+
+  .product1 {
+    margin: 10%;
+    margin-bottom: 3%;
+    margin-top: 15%;
+    height: 70%;
+    width: 70%;
+    border-radius: 3%;
+  }
+
+  .product1-mini {
+    float: left;
+    height: 14%;
+    width: 14%;
+    border-radius: 10%;
+    margin: 2% 2% 2% 10%;
+    opacity: 30%;
+    border: 2px solid hsl(26, 100%, 55%);
+  }
+
+  .mini {
+    float: left;
+    height: 14%;
+    width: 14%;
+    border-radius: 10%;
+    margin: 2%;
+  }
+
+  .mini:hover {
+    opacity: 50%;
+  }
+
+  .sneaker {
+    margin-top: 20%;
+  }
+
+  .fall {
+    width: 70%;
+  }
+
+  .these {
+    width: 90%;
+  }
+
+  .zero {
+    margin: 0% 7%;
+  }
+
+  .minus {
+    margin-top: 40px;
+  }
+
+  .add {
+    margin: 0% 5%;
+  }
+
+  .add:hover {
+    background-color: hsl(26, 100%, 70%);
+  }
+
+  .minus:hover {
+    opacity: 70%;
+  }
+
+  .plus:hover {
+    opacity: 70%;
+  }
+
+  .product1-on {
+    height: 45%;
+    width: 45%;
+    border-radius: 3%;
+  }
+
+  .product1-mini-on {
+    filter: invert(0.2);
+    border: 2px solid hsl(26, 100%, 55%);
+  }
+
+  .mini-on {
+    height: 8%;
+    width: 8%;
+    border-radius: 10%;
+    margin: 2% 1%;
+  }
+
+  .close {
+    top: -5%;
+    right: 28%;
+    height: 3%;
+    position: absolute;
+    filter: brightness(0) invert(1);
+  }
+
+  .next-on {
+    position: absolute;
+    top: 35%;
+    right: 25%;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 50%;
+    padding: 1.2% 1.5%;
+  }
+
+  .previous-on {
+    position: absolute;
+    top: 35%;
+    left: 25%;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 50%;
+    padding: 1.2% 1.5%;
+  }
+
+  .challenge {
+    margin-top: 10%;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 1200px) {
+  body {
+    margin: 2% 5% 5% 5%;
+  }
+
+  .sneaker {
+    margin-top: 10%;
+  }
+}
+
+@media (min-width: 700px) and (max-width: 1000px) {
+  .cart-show {
+    width: 30%;
+    top: 20%;
+  }
+
+  .empty {
+    margin-top: 10%;
+  }
+}
+
+@media (max-width: 800px) {
+  body {
+    margin: 0;
+  }
+
+  .top {
+    padding: 3% 0%;
+  }
+
+  .topp:active {
+    color: hsl(219, 9%, 45%);
+  }
+
+  .menu {
+    margin: 2%;
+    margin-left: 4%;
+  }
+
+  .logo {
+    padding-bottom: 2%;
+    margin-left: 2%;
+  }
+
+  .nav {
+    display: none;
+    position: absolute;
+    background-color: hsl(0, 0%, 100%);
+    height: 100%;
+    width: 60%;
+    color: hsl(0, 0%, 0%);
+    font-weight: bold;
+    padding-left: 5%;
+    padding-top: 3%;
+  }
+
+  .nav p {
+    margin: 7% 0%;
+  }
+
+  .cart:active {
+    filter: brightness(0);
+  }
+
+  .avatar {
+    height: 35px;
+    margin: 0% 4%;
+  }
+
+  .avatar:active {
+    height: 31px;
+    border: 2px solid hsl(26, 100%, 55%);
+    border-radius: 50%;
+  }
+
+  .lines {
+    display: none;
+  }
+
+  .cart-show {
+    position: absolute;
+    width: 90%;
+    height: 250px;
+    top: 7%;
+    margin: 4%;
+  }
+
+  .product1 {
+    height: 270px;
+    width: 100%;
+    margin: 0%;
+  }
+
+  .left-mini {
+    display: none;
+  }
+
+  .previous {
+    position: absolute;
+    top: 25%;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 50%;
+    padding: 1.2% 1.5%;
+    margin-left: 2%;
+  }
+
+  .next {
+    position: absolute;
+    top: 25%;
+    right: 0%;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 50%;
+    padding: 1.2% 1.5%;
+    margin-right: 2%;
+  }
+
+  .right {
+    margin: 4%;
+  }
+
+  .sneaker {
+    margin: 0%;
+  }
+
+  .fall {
+    margin: 2% 0%;
+  }
+
+  .these {
+    margin: 0%;
+    margin-bottom: 1%;
+  }
+
+  .d250 {
+    display: inline;
+    float: right;
+    margin: 0% 1% 0% 0;
+    padding-top: 2%;
+  }
+
+  .grayb {
+    display: block;
+    height: 50%;
+    margin-top: 3%;
+  }
+
+  .zero {
+    margin: 0% 40%;
+  }
+
+  .add {
+    width: 100%;
+    margin: 2% 0%;
+  }
+
+  .add:active {
+    background-color: hsl(26, 100%, 70%);
+  }
+
+  .minus:active {
+    opacity: 70%;
+  }
+
+  .plus:active {
+    opacity: 70%;
+  }
+
+  .challenge {
+    text-align: center;
+    font-size: 14px;
+    margin: 2% 0;
+  }
+
+  .empty {
+    margin-top: 20%;
+  }
+
+  .checkout {
+    margin: 6% 5%;
+  }
+
+  .checkout:active {
+    background-color: hsl(26, 100%, 70%);
+  }
+
+  .fall-cart {
+    margin-left: 100px;
+  }
+
+  .cart125 {
+    display: inline;
+    margin-left: 100px;
+  }
+}
+
+@media (min-width: 500px) {
+  .cart-show {
+    top: 10%;
+    right: 2%;
+  }
+
+  .checkout {
+    margin: 3% 5%;
+  }
+
+  .empty {
+    margin-top: 10%;
+  }
+}
